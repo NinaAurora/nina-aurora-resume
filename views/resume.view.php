@@ -59,7 +59,7 @@
 
         <section class="container">
             <!-- WHO AM I SECTION-->
-            <div class="row justify-content-content text-center">
+            <div class="row justify-content-content">
                 <div id="info" class="col-4" data-spy="scroll" data-target="navbar">
                     <h3>WHO AM I?</h3>
 
@@ -74,7 +74,7 @@
 
 
                 <!-- FACE SECTION-->
-                <div class="col-4">
+                <div class="col-4 text-center">
                     <h3> MY FACE </h3>
                     <hr>
                     <img src="/public/img/selfportrait1.jpg" style="width: 200px" alt="Self Portrait">
@@ -144,7 +144,7 @@
         <br>
 
         <section class="container">
-            <div class="row justify-content-content text-center">
+            <div class="row justify-content-content">
 
                 <!-- EDUCATION SECTION-->
                 <div class="col-3" id="education" class="container" data-spy="scroll" data-target="navbar">
@@ -190,25 +190,44 @@
             <div id="projects" class="container" data-spy="scroll" data-target="navbar">
                 <h3>Projects</h3>
                 <hr>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis veniam culpa exercitationem
-                cumque
-                ex
-                unde
-                eligendi fuga iste sed ratione, rem consectetur excepturi cupiditate reiciendis. Suscipit
-                reprehenderit
-                soluta sunt voluptatem!
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo ipsum numquam autem aut quo,
-                veritatis
-                officia a minus commodi quidem. Sit necessitatibus aliquam velit odio rem beatae magni quae id?
-                Lorem
-                ipsum
-                dolor sit amet, consectetur adipisicing elit. Recusandae fugit dolores perferendis illo
-                asperiores
-                sit
-                ipsam, aliquam sint laborum, voluptatum, saepe suscipit mollitia culpa molestias inventore?
-                Pariatur
-                nostrum
-                odit consectetur.
+
+                <div class="card-group">
+                    <div class="card">
+                        <img src="/public/img/bg1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Project #1</h5>
+                            <p class="card-text">My very first project utilizing only HTML & CSS.</p>
+                            <a href="#" class="card-link d-flex justify-content-center">Card link</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="/public/img/bg1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Project #2</h5>
+                            <p class="card-text">Collaboration with Femke Petter. I took care of the front-end,
+                                utilizing HTML, CSS & JQuery</p>
+                            <a href="#" class="card-link d-flex justify-content-center">Card link</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="/public/img/bg1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Project #3</h5>
+                            <p class="card-text">It's this one!</p>
+                            <a href="#" class="card-link d-flex justify-content-center">Card link</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="/public/img/bg1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Project #4</h5>
+                            <p class="card-text">Not made yet :D</p>
+                            <a href="#" class="card-link d-flex justify-content-center">Card link</a>
+                        </div>
+                    </div>
+                </div>
+
+
             </div>
         </div>
 

@@ -1,6 +1,10 @@
 # nina-aurora-resume
 Personal resume site
 
+Animations using:
+https://ianlunn.github.io/Hover/
+https://animate.style/
+
 # Installation
 - cd ~/
 - cd /your-sites-folder/nina-aurora-resume
